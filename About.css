@@ -1249,8 +1249,9 @@ body{
 
     /* Heading */
     .founder-content h2{
-        font-size:33px;
+        font-size:34px;
         line-height:1.2;
+        margin-bottom:20px;
     }
 
     /* Quote */
@@ -1286,8 +1287,9 @@ body{
 
 @media(max-width:768px){
     .gallery-header h2{
-        font-size:2rem;
+        font-size:34px;
         line-height:1.2;
+        margin-bottom:20px;
     }
 
     .gallery-section{
@@ -1328,8 +1330,9 @@ body{
 @media(max-width:768px){
 
     .values-header h2{
-        font-size:2rem;
+        font-size:34px;
         line-height:1.2;
+        margin-bottom:20px;
     }
     .values-header{
         margin-bottom:50px;

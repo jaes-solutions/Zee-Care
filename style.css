@@ -1480,13 +1480,13 @@ body{
     /* Zee Caring Companions */
 
     .hero-content h1{
-        font-size:30px;
-        line-height:1.05;
-        margin-bottom:18px;
-    }
-    .hero-content h1{
+    font-size:24px;
+    line-height:1.1;
+    margin-bottom:18px;
     white-space:nowrap;
-    }
+    text-align:center;
+    width:100%;
+}
     /* The Care You Need... */
 
     .tagline{
@@ -1562,7 +1562,7 @@ body{
         letter-spacing:1px;
     }
 
-    .hero-left h1{
+    .hero-left h2{
         font-size:34px;
         line-height:1.2;
         margin-bottom:20px;
@@ -1677,7 +1677,7 @@ body{
     }
 
     .founder-content h2{
-        font-size:28px;
+        font-size:34px;
         line-height:1.2;
         margin-bottom:20px;
     }
@@ -1734,9 +1734,9 @@ body{
     }
 
     .services-header h2{
-        font-size:32px;
+        font-size:34px;
         line-height:1.2;
-        margin-bottom:18px;
+        margin-bottom:20px;
     }
 
     .services-header p{
@@ -1789,7 +1789,7 @@ body{
     }
 
     .testimonial-section h2{
-        font-size:36px;
+        font-size:34px;
         line-height:1.2;
         margin-bottom:20px;
     }
@@ -1871,9 +1871,9 @@ body{
     }
 
     .contact-header h2{
-        font-size:36px;
+        font-size:34px;
         line-height:1.2;
-        margin-bottom:15px;
+        margin-bottom:20px;
     }
 
     .contact-header p{
