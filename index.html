@@ -721,61 +721,134 @@ rel="stylesheet">
                 </p>
             </div>
 
-            <form action="#" method="post">
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-                <div class="form-grid">
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="f89762a9-f465-4f98-a608-7559e5a21ef4">
 
-                    <div class="field">
-                        <label>First Name</label>
-                        <input type="text" placeholder="Enter your first name">
-                    </div>
+    <!-- Email Subject -->
+    <input type="hidden" name="subject" value="New Consultation Request - Zee Caring Companions Website">
 
-                    <div class="field">
-                        <label>Last Name</label>
-                        <input type="text" placeholder="Enter your last name">
-                    </div>
+   
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" style="display:none;">
 
-                    <div class="field">
-                        <label>Email Address</label>
-                        <input type="email" placeholder="Enter your email address">
-                    </div>
+    <div class="form-grid">
 
-                    <div class="field">
-                        <label>Phone Number</label>
-                        <input type="tel" placeholder="Enter your phone number">
-                    </div>
+        <!-- First Name -->
 
-                    <div class="field">
-    <label for="preferred-datetime">Preferred Date & Time</label>
-    <input type="datetime-local" id="preferred-datetime" name="preferred-datetime">
-</div>
+        <div class="field">
+            <label for="first_name">First Name</label>
 
-                    <div class="field">
-                        <label>Care Required</label>
-                        <select>
-                            <option>Dementia Care</option>
-                            <option>Live-in Care</option>
-                            <option>Companionship</option>
-                            <option>Respite Care</option>
-                        </select>
-                    </div>
+            <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder="Enter your first name"
+                autocomplete="given-name"
+                required>
+        </div>
 
-                </div>
+        <!-- Last Name -->
 
-                <div class="field full-width">
-                    <label>Tell Us About Your Requirements</label>
-                    <textarea
-                        rows="6"
-                        placeholder="Please share any information about the support required..."
-                    ></textarea>
-                </div>
+        <div class="field">
+            <label for="last_name">Last Name</label>
 
-                <button class="submit-btn">
-                    Request Consultation →
-                </button>
+            <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Enter your last name"
+                autocomplete="family-name"
+                required>
+        </div>
 
-            </form>
+        <!-- Email -->
 
+        <div class="field">
+            <label for="email">Email Address</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                autocomplete="email"
+                required>
+        </div>
+
+        <!-- Phone -->
+
+        <div class="field">
+            <label for="phone">Phone Number</label>
+
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                autocomplete="tel"
+                required>
+        </div>
+
+        <!-- Preferred Date -->
+
+        <div class="field">
+            <label for="preferred_datetime">Preferred Date & Time</label>
+
+            <input
+                type="datetime-local"
+                id="preferred_datetime"
+                name="preferred_datetime">
+        </div>
+
+        <!-- Care Required -->
+
+        <div class="field">
+            <label for="care_required">Care Required</label>
+
+            <select
+                id="care_required"
+                name="care_required"
+                required>
+
+                <option value="">Select Care Required</option>
+                <option>Dementia Care</option>
+                <option>Live-in Care</option>
+                <option>Companionship</option>
+                <option>Respite Care</option>
+
+            </select>
+        </div>
+
+    </div>
+
+    <!-- Requirements -->
+
+    <div class="field full-width">
+
+        <label for="requirements">
+            Tell Us About Your Requirements
+        </label>
+
+        <textarea
+            id="requirements"
+            name="requirements"
+            rows="6"
+            placeholder="Please share any information about the support required..."
+            required></textarea>
+
+    </div>
+
+    <button
+        type="submit"
+        class="submit-btn">
+
+        Request Consultation →
+
+    </button>
+
+</form>
         </div>
 
     </div>
