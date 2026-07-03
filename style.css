@@ -1671,13 +1671,12 @@ body{
         height:220px;
     }
 
-    /* Content */
-    .founder-content{
+   .founder-content{
         text-align:center;
     }
 
     .founder-content h2{
-        font-size:34px;
+        font-size:28px;
         line-height:1.2;
         margin-bottom:20px;
     }
@@ -1871,7 +1870,7 @@ body{
     }
 
     .contact-header h2{
-        font-size:34px;
+        font-size:30px;
         line-height:1.2;
         margin-bottom:20px;
     }
@@ -1908,7 +1907,7 @@ body{
     }
 
     .form-heading h3{
-        font-size:28px;
+        font-size:20px;
     }
 
     .form-heading p{
